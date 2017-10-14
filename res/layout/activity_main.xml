@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+      <Button
+        android:id="@+id/diseases_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/first_agri"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/shapes"
+        android:text=" রোগ নির্ণায়ক  "/>
+
+    <Button
+        android:id="@+id/npk_identify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diseases_id"
+        android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:textColor="#ffffff"
+        android:background="@drawable/shapes"
+        android:text=" ইউরিয়া পরিমাপক  " />
+
+    <Button
+        android:id="@+id/weather_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/npk_identify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shapes"
+        android:text=" আবহাওয়া " />
+
+    <Button
+        android:id="@+id/insect_kill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shapes"
+        android:text=" পোকা-মাকড়  দমন       " />
+
+    <Button
+        android:id="@+id/first_agri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insect_kill"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shapes"
+        android:text=" কৃষিতে হাতেখড়ি  " />
+
+    <Button
+        android:id="@+id/banking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/first_agri"
+        android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+        android:text=" ব্যাংকিং সেবা  " />
+
+    <Button
+        android:id="@+id/credit_ors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/banking"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+        android:text=" ক্রেডিট  " />
+
+
+
+</RelativeLayout>

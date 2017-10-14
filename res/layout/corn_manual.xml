@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/vuttamocaodanaimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/vutta_moca_o_dana" />
+
+        <TextView
+            android:id="@+id/vuttamocaodanatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vuttamocaodanaimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/vuttapatajholsanoimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/vuttamocaodanatext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/vutta_pata_jholsano" />
+
+        <TextView
+            android:id="@+id/vuttapatajholsanotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vuttapatajholsanoimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       
+    </RelativeLayout>
+
+</ScrollView>

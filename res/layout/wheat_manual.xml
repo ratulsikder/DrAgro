@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gomkalomoricaimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gom_kalo_morica" />
+
+        <TextView
+            android:id="@+id/gomkalomoricatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gomkalomoricaimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/gompatardagimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/gomkalomoricatext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/gom_patar_dag" />
+
+        <TextView
+            android:id="@+id/gompatardagtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gompatardagimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

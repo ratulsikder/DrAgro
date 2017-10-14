@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.titano.dragro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+     <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.android.titano.dragro.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.android.titano.dragro.Dhan">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Diseases_Identification">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Euria_Measurement">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Weather">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Insect_killing">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.FirstTimeAgri">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.ListOfBank">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Credit">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.DhanAuto"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.DhanManual">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Pat">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.PatAuto"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.PatManual">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Vutta">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.VuttaAuto"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.VuttaManual">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Akh">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.AkhAuto"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.AkhManual">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Gom">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.GomAuto"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.GomManual">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.EuriaAuto"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.EuriaManual">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.EuriaUsage">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Euria_View">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Dhan_View">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Pat_View">
+        </activity>
+         <activity
+            android:name="com.android.titano.dragro.Gom_View">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Akh_View">
+        </activity>
+        <activity
+            android:name="com.android.titano.dragro.Vutta_View">
+        </activity>
+    </application>
+
+</manifest>

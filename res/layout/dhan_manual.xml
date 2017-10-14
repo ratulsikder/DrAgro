@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dhan_ek"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/dhanblastimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/dhan_blast" />
+
+        <TextView
+            android:id="@+id/dhanblasttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dhanblastimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/dhanfoskadagimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/dhanblasttext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/dhan_foska_dag" />
+
+        <TextView
+            android:id="@+id/dhanfoskadagtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dhanfoskadagimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/dhankhalporaimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/dhanfoskadagtext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/dhan_khalpora" />
+
+        <TextView
+            android:id="@+id/dhankhalporatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dhankhalporaimage"
+            android:layout_centerHorizontal="true"
+           android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/dhanpataybadamiimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/dhankhalporatext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/dhan_patay_badami" />
+
+        <TextView
+            android:id="@+id/dhanpataybadamitext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dhanpataybadamiimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+</ScrollView>

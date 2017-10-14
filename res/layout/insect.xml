@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/insect_killing"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/panifadimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/water_fud" />
+
+        <TextView
+            android:id="@+id/panifadtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/panifadimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:text="পানি ফাঁদ : খুব সহজে এবং কম খরচে এই ফাঁদ তৈরি করা যায় । সাধারণত একটি বালতি বা গামলা দিয়ে এই ফাঁদ তৈরি করা হয় । অর্ধ পানি ভর্তি বালতির উপর একটা লাইট জ্বালিয়ে দিলে পোকা মাকড় আলোর আকর্ষণে আসে এবং বালতির ভিতর পড়ে যায় । এভাবে পোকা মাকড় নিধন করা সম্ভব ।"/>
+
+        <ImageView
+            android:id="@+id/rongfadimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/panifadtext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rong_fud" />
+
+        <TextView
+            android:id="@+id/rongfadtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rongfadimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="আঠালো রং এর ফাঁদ : সাধারণত পোকা হলুদ আর নীল রং দ্বারা আকর্ষিত হয় । তাই এই রং এর কোন কিছুর উপর আঠা দিয়ে মাঠে দিলে সেটা দিয়ে পোকার হাত থেকে অনেক অংশেই রক্ষা পাওয়া যায় ।" />
+
+        <ImageView
+            android:id="@+id/guptofudimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/rongfadtext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rat_fud" />
+
+        <TextView
+            android:id="@+id/guptofadtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guptofudimage"
+            android:layout_centerHorizontal="true"
+           android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:text="গুপ্ত ফাঁদ : মাটিতে গর্ত করে এই ফাঁদ তৈরি করা হয়ে থাকে । গর্তের ভিতর একটা পানি সহ বোতল বা বালতি রাখা হয় । এতে ইঁদুর এর হাত থেকে রেহাই পাওয়া যায় ।"/>
+
+        <ImageView
+            android:id="@+id/mosarifadimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/guptofadtext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/net_fud" />
+
+        <TextView
+            android:id="@+id/mosarifadtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mosarifadimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:text="মশারির ফাঁদ : মশারির ভিতর অনেক সময় একটি আলো জ্বালিয়ে সেখানটাকে অনেক উঁচু করে দেওয়া হয় । ফলে পোকা ভিতরে ধুকতে পারলেও বের হতে পারে না ।"/>
+    </RelativeLayout>
+
+</ScrollView>

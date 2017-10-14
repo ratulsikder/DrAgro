@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dhan_ek"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dhanpataybadamitext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dhanpataybadamiimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:text="চাষাবাদ শুরুর আগে মাটির প্রকৃতি,গুনাগুন জানা\n\nবিভিন্ন  ফসলজাত যেমন দানা জাতীয়,ডাল জাতীয়,তৈল জাতীয়,অর্থকরী জাতীয়,ফলজাতীয়,শাক সবজি জাতীয়,মসলা জাতীয়,ফুল জাতীয় ইত্যাদি ফসল বাছাই করা যেতে পারে।\n\nকৃষি উপকরনের মধ্যে রয়েছে বীজ,সার,বালাই নাসক,কৃষি  যন্ত্রপাতি,সেচ ও যন্ত্রপাতি।এসব উপকরনের গুনগত মান ও সঠিক ব্যবহার সম্পর্কে জানা যেমন কোন জাতের বীজ ও সার দ্রুত ফসল উৎপাদনের জন্য ভাল, কীটনাশকের সঠিক প্রয়োগ,ও যন্ত্রপাতির সঠিক ব্যবহার ইত্যাদি।\n\nনার্সারি গড়ে তোলার জন্য প্রয়োজনীয়  পদক্ষেপ নেয়া \n\nনিয়মিত ফসলের যত্ন নেয়া এবং ফসলের বিভিন্ন রোগবালাই সম্পর্কে সচেতন হওয়া\n\nআধুনিক কৃষি প্রযুক্তির সাহায্যে চাষাবাদ করা।সাথে সাথে উদ্ভিদের বা ফসলের খাদ্য উপাদান ও ফসল প্রক্রিয়াজাত সম্বন্ধে জানা"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,26 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        
+        <TextView
+            android:id="@+id/vuttamocaodanatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vuttamocaodanaimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="05dp"
+            android:text="কৃষি ক্ষেত্রে তিনভাবে ঋণ নেওয়া যায় । সেগুলি হল-\n\n১। আবাদ\n\n২। খামার\n\n৩। নবান্ন\n\n\nআবাদের ক্ষেত্রে ৩ লক্ষ টাকা পর্যন্ত ঋণ নেওয়া যেতে পারে । ৬ থেকে ১২ মাসের ভিতর টাকা ফেরত দিতে হয় । এক্ষেত্রে সুদের হার ১০০ টাকায় ০৯ টাকা ।\n\n\nখামারের ক্ষেত্রে ১০ লক্ষ টাকা পর্যন্ত ঋণ নেওয়া যেতে পারে । ১২ থেকে ২৪ মাসের ভিতর টাকা ফেরত দিতে হয় । সাধারনত খামার করার জন্য এই ঋণ দেওয়া হয় ।\n\n\nনবান্নের ক্ষেত্রে ৫০ লক্ষ টাকা পর্যন্ত ঋণ নেওয়া যেতে পারে । ৩ থেকে ৫ বছরের ভিতর টাকা ফেরত দিতে হয় ।"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+       
+    </RelativeLayout>
+
+</ScrollView>
